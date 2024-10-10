@@ -1,0 +1,43 @@
+.container {
+    width: 900%;
+    padding: 20px;
+  }
+  
+  .MuiPaper-root {
+    padding: 10px;
+    margin: 20px auto;
+    width: 100%; /* Ensure it takes full width */
+  }
+  
+  .MuiTypography-h4 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .d-flex {
+    display: flex;
+    justify-content: space-between; /* Adjust the alignment */
+    gap: 10px;
+  }
+  
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  /* For smaller screens */
+  @media (max-width: 3000px) {
+    .MuiGrid-container {
+      flex-direction: column;
+    }
+  
+    .MuiTypography-h4 {
+      font-size: 20px;
+    }
+  
+    .d-flex {
+      flex-direction: column;
+      gap: 2px;
+    }
+  }
+  
